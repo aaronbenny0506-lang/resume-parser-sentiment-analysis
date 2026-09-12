@@ -1,5 +1,0 @@
-Model,Accuracy,Precision,Recall,F1-Score
-TextBlob (baseline),0.7019,0.6391,0.9275,0.7568
-Naive Bayes,0.8669,0.8601,0.8762,0.8681
-SVM (LinearSVC),0.8462,0.8489,0.8425,0.8457
-Random Forest,0.8375,0.8409,0.8325,0.8367
