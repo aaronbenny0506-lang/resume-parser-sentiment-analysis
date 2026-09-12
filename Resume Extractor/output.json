@@ -1,0 +1,32 @@
+{
+  "resume_1.txt": {
+    "emails": [
+      "john.doe1990@gmail.com",
+      "john.doe.work@acme.com"
+    ],
+    "phone_numbers": [
+      "+1 (555) 123-4567",
+      "555-987-6543"
+    ]
+  },
+  "resume_2.txt": {
+    "emails": [
+      "priya.sharma@outlook.com"
+    ],
+    "phone_numbers": [
+      "+91 98765 43210",
+      "(022) 2345 6789"
+    ]
+  },
+  "resume_3.txt": {
+    "emails": [
+      "michael.obrien+jobs@company.co.uk",
+      "m.obrien@yahoo.com"
+    ],
+    "phone_numbers": [
+      "20 7946 0958",
+      "07911.123456",
+      "555.222.3333"
+    ]
+  }
+}
