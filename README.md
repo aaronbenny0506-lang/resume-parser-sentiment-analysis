@@ -2,9 +2,9 @@
 
 This repository contains two independent NLP tasks:
 
-1. **Resume Extractor** — a rule-based script using regular expressions to
+1. **Resume Extractor** : a rule-based script using regular expressions to
    extract phone numbers and email addresses from resume text.
-2. **Sentiment Classification** — a text classification pipeline that
+2. **Sentiment Classification** : a text classification pipeline that
    trains and compares multiple ML models (Naive Bayes, SVM, Random
    Forest) against a TextBlob baseline on the IMDB movie review dataset.
 
@@ -40,7 +40,7 @@ This repository contains two independent NLP tasks:
 
 - **Email regex** — matches standard `local-part@domain.tld` addresses.
 - **Phone regex** — handles common formats including country codes,
-  parenthesized area codes, and separators (`-`, `.`, space), e.g.:
+  parenthesized area codes, and separators (`-`, `.`, space), eg:
   - `+1 (555) 123-4567`
   - `555-987-6543`
   - `+91 98765 43210`
@@ -58,7 +58,7 @@ python resume_extractor.py
 ```
 
 This runs the extractor against **3 built-in sample resumes** and writes
-the results to `output.json`, e.g.:
+the results to `output.json`, eg:
 
 ```json
 {
@@ -96,7 +96,7 @@ Reviews dataset** (50,000 labeled reviews, balanced positive/negative).
 
 > Note: the task referenced a Google Drive-hosted sentiment dataset. The
 > IMDB dataset included here (`IMDB_Dataset.csv`) is used as the custom
-> sentiment dataset — swap in any other CSV with `review`/`sentiment`
+> sentiment dataset, swap in any other CSV with `review`/`sentiment`
 > columns and the pipeline works unchanged.
 
 ### Pipeline
@@ -125,10 +125,10 @@ Or open `sentiment_classification.ipynb` in Jupyter to see the full
 walkthrough with inline outputs.
 
 Outputs are written to `sentiment_classification/outputs/`:
-- `model_comparison.csv` — metrics table
-- `model_comparison.png` — bar chart of all models
-- `confusion_matrices.png` — confusion matrix per model
-- `classification_reports.txt` — full sklearn classification reports
+- `model_comparison.csv` : metrics table
+- `model_comparison.png` : bar chart of all models
+- `confusion_matrices.png` : confusion matrix per model
+- `classification_reports.txt` : full sklearn classification reports
 
 ### Sample Results (8,000-review balanced sample)
 
